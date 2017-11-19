@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "author": "boB Rudis",
+  "homepage_url": "https://rud.is/b",
+  "developer": {
+    "name": "boB Rudis",
+    "url": "https://rud.is/b"
+  },
+  "name": "R-bloggers Redirect",
+  "version": "1.0",
+
+  "description": "Auto-redirects from R-bloggers to the source blog URL found in one of the footers.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.r-bloggers.com/*"],
+      "js": ["rblogger.js"]
+    }
+  ],
+
+  "permissions": [
+    "*://*.r-bloggers.com/*",
+    "webRequest",
+    "webNavigation"
+  ]
+
+}
