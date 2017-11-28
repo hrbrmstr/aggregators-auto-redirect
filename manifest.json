@@ -7,10 +7,10 @@
     "name": "boB Rudis",
     "url": "https://rud.is/b"
   },
-  "name": "R-bloggers Redirect",
+  "name": "Aggregator Redirect",
   "version": "1.0",
 
-  "description": "Auto-redirects from R-bloggers to the source blog URL found in one of the footers.",
+  "description": "Auto-redirects from content aggregator posts to the source blog URL.",
 
   "icons": {
     "48": "icons/border-48.png"
