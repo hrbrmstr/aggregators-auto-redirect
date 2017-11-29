@@ -6,7 +6,7 @@ A Quantum Firefox (shld work in Chrome) unpacked WebExtension to find and load t
 
 Many aggregators are useful. Some are horrible. And, most authors have a blog theme designed to format their posts optimally and they deserve the "clicks", too.
 
-Load this WebExtension and whenever you hit an aggregator page that does point to a feeder blog you will automagically be redirected to said feeder blog's entry. The `manifest.js` file is a good place to see which ones are supported (one right now).
+Load this WebExtension and whenever you hit an aggregator page that does point to a feeder blog you will automagically be redirected to said feeder blog's entry. The `manifest.js` file is a good place to see which ones are supported (two right now).
 
 It should not interfere with general interaction on most aggregators, just the final target article pages.
 

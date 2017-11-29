@@ -20,6 +20,10 @@
     {
       "matches": ["*://*.r-bloggers.com/*"],
       "js": ["rblogger.js"]
+    },
+    {
+      "matches": ["*://*.statsblogs.com/*"],
+      "js": ["statsblogs.js"]
     }
   ],
 
