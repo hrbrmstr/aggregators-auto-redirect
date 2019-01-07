@@ -1,16 +1,21 @@
 {
 
   "manifest_version": 2,
+
+  "name": "Aggregator Redirect",
+
+  "version": "1.1",
+
+  "description": "Auto-redirects from content aggregator posts to the source blog URL.",
+
   "author": "boB Rudis",
+
   "homepage_url": "https://rud.is/b",
+
   "developer": {
     "name": "boB Rudis",
     "url": "https://rud.is/b"
   },
-  "name": "Aggregator Redirect",
-  "version": "1.0",
-
-  "description": "Auto-redirects from content aggregator posts to the source blog URL.",
 
   "icons": {
     "48": "icons/border-48.png"
@@ -24,11 +29,17 @@
     {
       "matches": ["*://*.statsblogs.com/*"],
       "js": ["statsblogs.js"]
+    },
+    {
+      "matches": ["*://*.securityboulevard.com/*"],
+      "js": ["securityboulevard.js"]
     }
   ],
 
   "permissions": [
     "*://*.r-bloggers.com/*",
+    "*://*.statsblogs.com/*",
+    "*://*.securityboulevard.com/*",
     "webRequest",
     "webNavigation"
   ]

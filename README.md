@@ -1,6 +1,6 @@
 # Automatic Redirection to source posts from aggregators
 
-A Quantum Firefox (shld work in Chrome) unpacked WebExtension to find and load the real page link in aggregator re-posts
+A modern Firefox packed & unpacked (which shld work in Chrome) WebExtension to find and load the real page link in blog aggregator re-posts.
 
 ## What's Inside The Tin
 
@@ -11,6 +11,12 @@ Load this WebExtension and whenever you hit an aggregator page that does point t
 It should not interfere with general interaction on most aggregators, just the final target article pages.
 
 Currently has a hardcoded delay that's long enough to register as a "view" to most ad networks (since many/most aggregators rely on ad revenue).
+
+## Current Aggregators Processed
+
+- [R-bloggers](https://r-bloggers.com/)
+- [StatsBlogs](statsblogs.com)
+- [Security Boulevard](statsblogs.com)
 
 ## Installation (Firefox)
 
@@ -23,6 +29,7 @@ Currently has a hardcoded delay that's long enough to register as a "view" to mo
 ## TODO
 
 - add more aggregators
-- options page to customzie delay time and possibly other things
+- options page to customize delay time and possibly other things
 - some visual indicator about the impending redirect
 - better icon(s)
+- no redirection on the main page of the aggregator
